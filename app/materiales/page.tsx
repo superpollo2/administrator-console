@@ -1,9 +1,11 @@
+import React from 'react';
 
-export default function MaterialsPage() {
-    return (
-      <main>
-        <h1>pagina materiales</h1>
-      </main>
-    )
-  }
-  
+const MaterialsPage = () => {
+	return (
+		<main>
+			<h1>pagina materiales</h1>
+		</main>
+	);
+};
+
+export default MaterialsPage;

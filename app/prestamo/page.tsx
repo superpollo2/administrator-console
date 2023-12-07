@@ -1,9 +1,11 @@
+import React from 'react';
 
-export default function LoanPage() {
-    return (
-      <main>
-        <h1>pagina prestamo</h1>
-      </main>
-    )
-  }
-  
+const LoanPage = () => {
+	return (
+		<main>
+			<h1>pagina prestamo</h1>
+		</main>
+	);
+};
+
+export default LoanPage;

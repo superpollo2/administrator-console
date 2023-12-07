@@ -1,9 +1,11 @@
+import React from 'react';
 
-export default function ContabilityPage() {
-    return (
-      <main>
-        <h1>pagina contabilidad</h1>
-      </main>
-    )
-  }
-  
+const ContabilityPage = () => {
+	return (
+		<main>
+			<h1>pagina contabilidad</h1>
+		</main>
+	);
+};
+
+export default ContabilityPage;

@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import React from 'react';
 
-export default function Home() {
-  return (
-    <main >
-      <h1>algo</h1>
-    </main>
-  )
-}
+const Home = () => {
+	return (
+		<main>
+			<h1>algo</h1>
+		</main>
+	);
+};
+
+export default Home;

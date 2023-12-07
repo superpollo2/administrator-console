@@ -2,7 +2,6 @@
 
 The management system designed for the administrative assistants of the Integrated Systems Laboratory at the University of Antioquia efficiently streamlines various tasks, such as inventory control, equipment loans, room management, and connection verification. Its main objective is to optimize the laboratory's operations, enhancing efficiency and coordination of daily activities.
 
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

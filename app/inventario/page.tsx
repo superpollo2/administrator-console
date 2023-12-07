@@ -1,9 +1,11 @@
+import React from 'react';
 
-export default function InventoryPage() {
-    return (
-      <main>
-        <h1>pagina inventario</h1>
-      </main>
-    )
-  }
-  
+const InventoryPage = () => {
+	return (
+		<main>
+			<h1>pagina inventario</h1>
+		</main>
+	);
+};
+
+export default InventoryPage;
