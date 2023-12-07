@@ -114,7 +114,7 @@ nav li.active button {
 }
 
 .bodyContent {
-  @apply w-[96%] flex items-center justify-center;
+  @apply w-[96%]  flex items-center justify-center;
 }
 
 .navContent {
@@ -124,4 +124,16 @@ nav li.active button {
 
 .container-topbar{
   @apply flex items-center text-center space-x-5 p-2 mr-10 mt-8 text-grayRaccoon
+}
+
+.container-body{
+  @apply h-[87%] w-full  flex flex-row
+}
+
+.container-footer{
+  @apply fixed bottom-0 w-full h-[13%] flex justify-center p-6 bg-whiteDirty
+}
+
+.container-footer--text{
+  @apply text-sm text-grayPotato flex flex-row items-center justify-center space-x-8
 }
