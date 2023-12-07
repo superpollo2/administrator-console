@@ -13,19 +13,21 @@ const NavLinks = () => {
 		setActiveLink(pathName);
 	}, [pathName]);
 
+
 	return (
 		<ul>
 			{links.map(({ label, route, icon: Icon }) => (
 				<li key={route} className={route === activeLink ? 'active' : ''}>
-					<a
+					<button
 						onClick={() => {
 							router.push(route);
 						}}
-						className='link '
+						className='link'
+						type='button'
 					>
 						{Boolean(Icon) && <Icon />}
 						<span>{label}</span>
-					</a>
+					</button>
 				</li>
 			))}
 		</ul>
