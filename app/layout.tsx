@@ -2,9 +2,9 @@
 'use client';
 import { Inter } from 'next/font/google';
 import 'styles/globals.css';
-import { SideNav } from '@/components/SideNav/SideNav';
-import { TopBar } from '@/components/topBar/TopBar';
-import { Footer } from '@/components/footer/Footer';
+import { SideNav } from '@/components/Layout/SideNav/SideNav';
+import { TopBar } from '@/components/Layout/topBar/TopBar';
+import { Footer } from '@/components/Layout/footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
