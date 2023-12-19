@@ -1,0 +1,14 @@
+
+.topBarContainer {
+	@apply flex items-center text-center space-x-5 p-2 mr-10 mt-8 text-grayRaccoon;
+}
+
+.profile {
+    @apply flex flex-col;
+}
+
+.img{
+    @apply w-16;
+}
+
+
