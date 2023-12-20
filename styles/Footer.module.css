@@ -1,0 +1,11 @@
+.footerContainer {
+	@apply fixed bottom-0 w-full h-[13%] flex justify-center p-6 bg-whiteDirty;
+}
+
+.textFooterContainer {
+	@apply text-sm text-grayPotato flex flex-row items-center justify-center space-x-8;
+}
+.footerText{
+    @apply text-center;
+}
+
