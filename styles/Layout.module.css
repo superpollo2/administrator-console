@@ -1,0 +1,12 @@
+.bodyContainer{
+    @apply h-[87%] w-full  flex flex-row; 
+}
+.bodyContent{
+    @apply w-[96%]  flex items-center justify-center;
+}
+.topBarContainer{
+    @apply absolute top-0 right-0
+}
+.body{
+    @apply bg-whiteBonds h-screen overflow-hidden;
+}
