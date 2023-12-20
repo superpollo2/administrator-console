@@ -2,19 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-	@apply bg-whiteBonds h-screen overflow-hidden;
-}
-
-.bodyContent {
-	@apply w-[96%]  flex items-center justify-center;
-}
-
-.container-topbar {
-	@apply flex items-center text-center space-x-5 p-2 mr-10 mt-8 text-grayRaccoon;
-}
-
-.container-body {
-	@apply h-[87%] w-full  flex flex-row;
-}
-
