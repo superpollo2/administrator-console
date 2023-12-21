@@ -1,5 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 'use client';
+import '@/styles/globals.css'
 import { Inter } from 'next/font/google';
 import { SideNav } from '@/components/Layout/SideNav/SideNav';
 import { TopBar } from '@/components/Layout/topBar/TopBar';
