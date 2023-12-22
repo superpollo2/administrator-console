@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { IconType } from 'react-icons';
+import styles from '@/styles/SideNav.module.css'
 
 
 type Props = {
@@ -11,7 +12,7 @@ type Props = {
 
 function NavLink({route, label, icon: Icon}: Props) {
 	return (
-        <Link href={route} className='link'>
+        <Link href={route} className={styles.link}>
             {Boolean(Icon) && <Icon />}
             <span>{label}</span>
         </Link>
