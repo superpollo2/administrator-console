@@ -8,17 +8,18 @@ const NavLinks = () => {
 	const links = getLinks();
 	const pathName = usePathname();
 	const [activeLink, setActiveLink] = useState('');
+	const active = false
 
 	useEffect(() => {
 		// Actualiza el estado de activeLink cuando cambia la ruta
-		setActiveLink(pathName);
+		setActiveLink(pathName); 
 	}, [pathName]);
 
 
 	return (
 		<ul className={styles.ul}>
 			{links.map(({ label, route, icon: Icon }) => (
-				<li key={route} className={`${styles.li} ${route === activeLink && `${styles.active}`}`}>
+				<li key={route} className={`${styles.li} ${route === activeLink && styles.active}`}>
 					<NavLink label={label} route={route} icon={Icon} />
 				</li>
 			))}
