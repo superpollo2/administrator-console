@@ -22,9 +22,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
 			</head>
 			<body className={`${inter.className} ${layoutStyles.body}`}>
 				<div className={layoutStyles.bodyContainer}>
-					<div className={sideNavstyles.navContent}>
 						<SideNav />
-					</div>
 					<div className={layoutStyles.bodyContent}>
 						<div className={layoutStyles.topBarContainer}>
 							<TopBar />

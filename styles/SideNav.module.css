@@ -1,10 +1,8 @@
-.container {
-	@apply flex items-center justify-center h-full;
-}
 .nav {
-	@apply fixed max-w-md bg-greenOne
+	@apply mx-3 fixed max-w-md bg-greenOne h-full
     rounded-3xl shadow-md  space-y-6 pb-3;
 }
+
 .nav :where(.li, .link) {
 	@apply relative;
 }
@@ -31,10 +29,6 @@
 	transition duration-150 ease-out md:ease-in hover:text-greenDirty 
 	cursor-default;
 }
-
-
-
-
 
 /*animation*/
 .li::before,
@@ -104,7 +98,4 @@
 	@apply text-grayRaccoon;
 }
 
-.navContent {
-	@apply w-[14%] mx-3  h-full;
-}
 
