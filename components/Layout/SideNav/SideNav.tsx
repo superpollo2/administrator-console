@@ -6,7 +6,6 @@ const inter = Inter({ subsets: ['latin'] });
 
 const SideNav = () => {
 	return (
-		<div className={styles.container}>
 			<nav className={styles.nav}>
 				<div className={styles.logoContainer}>
 					<img
@@ -23,7 +22,6 @@ const SideNav = () => {
 					<NavLinks />
 				</div>
 			</nav>
-		</div>
 	);
 };
 

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const TopBar = () => {
 	return (
-		<div className={styles.topBarContainer}>
+		<header className={styles.topBarContainer}>
 			<div className={styles.profile}>
 				<span className={`${inter.className} font-bold`}>Pepito Pérez</span>
 				<span>Administrativo</span>
@@ -14,7 +14,7 @@ const TopBar = () => {
 			<div>
 				<img src='/images/avatar.png' alt='' className={styles.img} />
 			</div>
-		</div>
+		</header>
 	);
 };
 

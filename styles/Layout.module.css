@@ -1,12 +1,7 @@
 .bodyContainer{
-    @apply h-[87%] w-full  flex flex-row; 
+    @apply h-[87%] w-full  flex flex-row bg-whiteBonds h-screen overflow-hidden; 
 }
-.bodyContent{
+.mainContainer{
     @apply w-[96%]  flex items-center justify-center;
 }
-.topBarContainer{
-    @apply absolute top-0 right-0
-}
-.body{
-    @apply bg-whiteBonds h-screen overflow-hidden;
-}
+
