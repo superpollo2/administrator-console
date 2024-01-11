@@ -4,6 +4,4 @@
 .bodyContent{
     @apply w-[96%]  flex items-center justify-center;
 }
-.topBarContainer{
-    @apply absolute top-0 right-0
-}
+

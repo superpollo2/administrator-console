@@ -1,6 +1,6 @@
 
 .topBarContainer {
-	@apply flex items-center text-center space-x-5 p-2 mr-10 mt-8 text-grayRaccoon;
+	@apply flex items-center text-center space-x-5 p-2 mr-10 mt-8 text-grayRaccoon absolute top-0 right-0;
 }
 
 .profile {
