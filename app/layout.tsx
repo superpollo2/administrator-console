@@ -5,7 +5,6 @@ import { Inter } from 'next/font/google';
 import { SideNav } from '@/components/Layout/SideNav/SideNav';
 import { TopBar } from '@/components/Layout/topBar/TopBar';
 import { Footer } from '@/components/Layout/footer/Footer';
-import sideNavstyles from '@/styles/SideNav.module.css';
 import layoutStyles from '@/styles/Layout.module.css';
 
 const inter = Inter({ subsets: ['latin'] });
