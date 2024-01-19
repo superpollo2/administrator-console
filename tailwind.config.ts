@@ -26,6 +26,23 @@ const config: Config = {
 				// Puedes agregar más colores según tus necesidades
 			},
 		},
+		screens: {
+			'desktop-xl': '1920px',
+			// => @media (min-width: 1920px) { ... }
+
+			'desktop-l': '1536px',
+			// => @media (min-width: 1536px) { ... }
+
+			'desktop-md': '1366px',
+			// => @media (min-width: 1366px) { ... }
+
+			'desktop-sm': '1280px',
+			// => @media (min-width: 1280px) { ... }
+
+			'sm': '640px', // Ejemplo existente
+            'md': '768px', // Ejemplo existente
+            'lg': '1024px',
+		  },
 	},
 	plugins: [],
 };
